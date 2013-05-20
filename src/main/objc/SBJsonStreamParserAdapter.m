@@ -115,7 +115,7 @@
 
 - (void)parserFoundObjectStart:(SBJsonStreamParser*)parser {
 	if (++depth > self.levelsToSkip) {
-		dict = [NSMutableDictionary new];
+		dict = [CWLOrderedDictionary new];
 		[stack addObject:dict];
 		currentType = SBJsonStreamParserAdapterObject;
 	}
