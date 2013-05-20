@@ -91,7 +91,7 @@ static NSString *chomp(NSString *str) {
         STAssertEqualObjects(parser.error, chomp(slurp(outpath)), nil);
     }];
     
-    STAssertEquals(count, (NSUInteger)39, nil);
+    STAssertEquals(count, (NSUInteger)35, nil);
 
 }
 

@@ -33,6 +33,8 @@
 #import <Foundation/Foundation.h>
 #import "SBJsonStreamParser.h"
 
+#import <CWLOrderedDictionary.h>
+
 typedef enum {
 	SBJsonStreamParserAdapterNone,
 	SBJsonStreamParserAdapterArray,
@@ -115,7 +117,7 @@ typedef enum {
 @private
 	NSUInteger depth;
     NSMutableArray *array;
-	NSMutableDictionary *dict;
+	CWLOrderedDictionary *dict;
 	NSMutableArray *keyStack;
 	NSMutableArray *stack;
 	

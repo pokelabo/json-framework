@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		463AE1FE140E429A87CC3E4D /* libPods-sbjson-iosTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A3EE336A9F4892A1BF1EFD /* libPods-sbjson-iosTests.a */; };
+		5DC04868387F4ADBA501F4D7 /* libPods-SBJson.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 506567358C984F37A64BEB68 /* libPods-SBJson.a */; };
 		BC12324B1391D5CC00131607 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC1232491391D5CC00131607 /* InfoPlist.strings */; };
 		BC1232561391D5CC00131607 /* SBJson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC12323D1391D5CC00131607 /* SBJson.framework */; };
 		BC12325C1391D5CC00131607 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC12325A1391D5CC00131607 /* InfoPlist.strings */; };
@@ -62,6 +64,7 @@
 		BCC2629413921035003D9994 /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8851351391D6CD00370E55 /* SBJsonStreamWriterAccumulator.m */; };
 		BCC2629513921035003D9994 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8851371391D6CD00370E55 /* SBJsonStreamWriterState.m */; };
 		BCC2629713921035003D9994 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = BC88513B1391D6CD00370E55 /* SBJsonWriter.m */; };
+		CB9C42732D144DF1B04E4D6D /* libPods-SBJsonTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA99E784F2894A039A336939 /* libPods-SBJsonTests.a */; };
 		D7F64E60169262AE009DF12E /* jsonchecker in Resources */ = {isa = PBXBuildFile; fileRef = D7F64E5F169262AE009DF12E /* jsonchecker */; };
 		D7F64E61169262AE009DF12E /* jsonchecker in Resources */ = {isa = PBXBuildFile; fileRef = D7F64E5F169262AE009DF12E /* jsonchecker */; };
 		D7F64E661692697D009DF12E /* stream in Resources */ = {isa = PBXBuildFile; fileRef = D7F64E651692697D009DF12E /* stream */; };
@@ -82,6 +85,7 @@
 		F8D04C40AB8E50C09F7534AE /* SBJsonStreamTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D04518FD72EFA646581EAB /* SBJsonStreamTokeniser.m */; };
 		F8D04F5F7E70FC5FAFCB6856 /* JsonStreamTokeniserTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D04F629C26EB98D2031F46 /* JsonStreamTokeniserTest.m */; };
 		F8D04FA987CD1C73A4CF0A71 /* kuhn in Resources */ = {isa = PBXBuildFile; fileRef = F8D04F2055A30B07D7E8AEAF /* kuhn */; };
+		FF2251BCA9734933B4BC2F5B /* libPods-sbjson-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 261576E8AA804D2CB9F4786B /* libPods-sbjson-ios.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +106,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E3A1130AEA74B3AA93E72B6 /* Pods-sbjson-ios.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sbjson-ios.xcconfig"; path = "Pods/Pods-sbjson-ios.xcconfig"; sourceTree = SOURCE_ROOT; };
+		261576E8AA804D2CB9F4786B /* libPods-sbjson-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sbjson-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		506567358C984F37A64BEB68 /* libPods-SBJson.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SBJson.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBBDDD72C0AE4EDF8FFC6240 /* Pods-sbjson-iosTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sbjson-iosTests.xcconfig"; path = "Pods/Pods-sbjson-iosTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 		BC12323D1391D5CC00131607 /* SBJson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SBJson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC1232481391D5CC00131607 /* SBJson-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SBJson-Info.plist"; sourceTree = "<group>"; };
 		BC12324A1391D5CC00131607 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -140,6 +148,9 @@
 		BCC2627E13920FC7003D9994 /* sbjson-iosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sbjson-iosTests-Info.plist"; sourceTree = "<group>"; };
 		BCC2628013920FC7003D9994 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BCC2628213920FC7003D9994 /* sbjson-iosTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sbjson-iosTests-Prefix.pch"; sourceTree = "<group>"; };
+		C0A3EE336A9F4892A1BF1EFD /* libPods-sbjson-iosTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sbjson-iosTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C248E5C0802A4A49AD5185F6 /* Pods-SBJsonTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBJsonTests.xcconfig"; path = "Pods/Pods-SBJsonTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+		D565C774FB88444C89402AD2 /* Pods-SBJson.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBJson.xcconfig"; path = "Pods/Pods-SBJson.xcconfig"; sourceTree = SOURCE_ROOT; };
 		D7F64E5F169262AE009DF12E /* jsonchecker */ = {isa = PBXFileReference; lastKnownFileType = folder; path = jsonchecker; sourceTree = "<group>"; };
 		D7F64E651692697D009DF12E /* stream */ = {isa = PBXFileReference; lastKnownFileType = folder; path = stream; sourceTree = "<group>"; };
 		D7F64E7C1692D24D009DF12E /* main */ = {isa = PBXFileReference; lastKnownFileType = folder; path = main; sourceTree = "<group>"; };
@@ -150,6 +161,7 @@
 		F8D04A94F7A4284E41E96B8F /* MainSuite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainSuite.m; sourceTree = "<group>"; };
 		F8D04F2055A30B07D7E8AEAF /* kuhn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; path = kuhn; sourceTree = "<group>"; };
 		F8D04F629C26EB98D2031F46 /* JsonStreamTokeniserTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonStreamTokeniserTest.m; sourceTree = "<group>"; };
+		FA99E784F2894A039A336939 /* libPods-SBJsonTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SBJsonTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCC2626313920EE8003D9994 /* Foundation.framework in Frameworks */,
+				5DC04868387F4ADBA501F4D7 /* libPods-SBJson.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +180,7 @@
 			files = (
 				BC1232561391D5CC00131607 /* SBJson.framework in Frameworks */,
 				BCC2626413920F25003D9994 /* Foundation.framework in Frameworks */,
+				CB9C42732D144DF1B04E4D6D /* libPods-SBJsonTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCC2626A13920FC7003D9994 /* Foundation.framework in Frameworks */,
+				FF2251BCA9734933B4BC2F5B /* libPods-sbjson-ios.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +199,7 @@
 			files = (
 				BCC2627613920FC7003D9994 /* Foundation.framework in Frameworks */,
 				BCC2627B13920FC7003D9994 /* libsbjson-ios.a in Frameworks */,
+				463AE1FE140E429A87CC3E4D /* libPods-sbjson-iosTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +216,10 @@
 				BCC2627C13920FC7003D9994 /* sbjson-iosTests */,
 				BC12323F1391D5CC00131607 /* Frameworks */,
 				BC12323E1391D5CC00131607 /* Products */,
+				D565C774FB88444C89402AD2 /* Pods-SBJson.xcconfig */,
+				C248E5C0802A4A49AD5185F6 /* Pods-SBJsonTests.xcconfig */,
+				1E3A1130AEA74B3AA93E72B6 /* Pods-sbjson-ios.xcconfig */,
+				BBBDDD72C0AE4EDF8FFC6240 /* Pods-sbjson-iosTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -218,6 +238,10 @@
 			isa = PBXGroup;
 			children = (
 				BC8853981391D74C00370E55 /* Foundation.framework */,
+				506567358C984F37A64BEB68 /* libPods-SBJson.a */,
+				FA99E784F2894A039A336939 /* libPods-SBJsonTests.a */,
+				261576E8AA804D2CB9F4786B /* libPods-sbjson-ios.a */,
+				C0A3EE336A9F4892A1BF1EFD /* libPods-sbjson-iosTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -313,26 +337,26 @@
 			isa = PBXGroup;
 			children = (
 				BC8851271391D6CD00370E55 /* SBJson.h */,
-				BC8851371391D6CD00370E55 /* SBJsonStreamWriterState.m */,
-				BC8851361391D6CD00370E55 /* SBJsonStreamWriterState.h */,
-				BC8851301391D6CD00370E55 /* SBJsonStreamParserState.h */,
-				BC8851341391D6CD00370E55 /* SBJsonStreamWriterAccumulator.h */,
-				BC8851321391D6CD00370E55 /* SBJsonStreamWriter.h */,
-				BC8851291391D6CD00370E55 /* SBJsonParser.m */,
 				BC8851281391D6CD00370E55 /* SBJsonParser.h */,
-				BC8851331391D6CD00370E55 /* SBJsonStreamWriter.m */,
-				BC88512D1391D6CD00370E55 /* SBJsonStreamParserAccumulator.m */,
+				BC8851291391D6CD00370E55 /* SBJsonParser.m */,
 				BC88512A1391D6CD00370E55 /* SBJsonStreamParser.h */,
-				BC88512E1391D6CD00370E55 /* SBJsonStreamParserAdapter.h */,
 				BC88512B1391D6CD00370E55 /* SBJsonStreamParser.m */,
-				BC88512F1391D6CD00370E55 /* SBJsonStreamParserAdapter.m */,
-				BC88513B1391D6CD00370E55 /* SBJsonWriter.m */,
-				BC8851351391D6CD00370E55 /* SBJsonStreamWriterAccumulator.m */,
-				BC88513A1391D6CD00370E55 /* SBJsonWriter.h */,
 				BC88512C1391D6CD00370E55 /* SBJsonStreamParserAccumulator.h */,
+				BC88512D1391D6CD00370E55 /* SBJsonStreamParserAccumulator.m */,
+				BC88512E1391D6CD00370E55 /* SBJsonStreamParserAdapter.h */,
+				BC88512F1391D6CD00370E55 /* SBJsonStreamParserAdapter.m */,
+				BC8851301391D6CD00370E55 /* SBJsonStreamParserState.h */,
 				BC8851311391D6CD00370E55 /* SBJsonStreamParserState.m */,
-				F8D04518FD72EFA646581EAB /* SBJsonStreamTokeniser.m */,
 				F8D041B0DB689CC78ABDF64D /* SBJsonStreamTokeniser.h */,
+				F8D04518FD72EFA646581EAB /* SBJsonStreamTokeniser.m */,
+				BC8851321391D6CD00370E55 /* SBJsonStreamWriter.h */,
+				BC8851331391D6CD00370E55 /* SBJsonStreamWriter.m */,
+				BC8851341391D6CD00370E55 /* SBJsonStreamWriterAccumulator.h */,
+				BC8851351391D6CD00370E55 /* SBJsonStreamWriterAccumulator.m */,
+				BC8851361391D6CD00370E55 /* SBJsonStreamWriterState.h */,
+				BC8851371391D6CD00370E55 /* SBJsonStreamWriterState.m */,
+				BC88513A1391D6CD00370E55 /* SBJsonWriter.h */,
+				BC88513B1391D6CD00370E55 /* SBJsonWriter.m */,
 			);
 			path = objc;
 			sourceTree = "<group>";
@@ -418,10 +442,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC1232641391D5CC00131607 /* Build configuration list for PBXNativeTarget "SBJson" */;
 			buildPhases = (
+				01DF0A317F824BDFA341A201 /* Check Pods Manifest.lock */,
 				BC1232381391D5CC00131607 /* Sources */,
 				BC1232391391D5CC00131607 /* Frameworks */,
 				BC12323A1391D5CC00131607 /* Headers */,
 				BC12323B1391D5CC00131607 /* Resources */,
+				F5CC9808626847FBAD3EFFC3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -436,10 +462,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC1232671391D5CC00131607 /* Build configuration list for PBXNativeTarget "SBJsonTests" */;
 			buildPhases = (
+				C795AF7E182C4EC087505748 /* Check Pods Manifest.lock */,
 				BC12324D1391D5CC00131607 /* Sources */,
 				BC12324E1391D5CC00131607 /* Frameworks */,
 				BC12324F1391D5CC00131607 /* Resources */,
 				BC1232501391D5CC00131607 /* ShellScript */,
+				02B72F74BB36476CBC73259B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -455,9 +483,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCC2628713920FC7003D9994 /* Build configuration list for PBXNativeTarget "sbjson-ios" */;
 			buildPhases = (
+				EB7DE809E60841978D82211F /* Check Pods Manifest.lock */,
 				BCC2626513920FC7003D9994 /* Sources */,
 				BCC2626613920FC7003D9994 /* Frameworks */,
 				BCC2626713920FC7003D9994 /* Headers */,
+				839001FA6BB644D88A5EE706 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -472,10 +502,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCC2628A13920FC7003D9994 /* Build configuration list for PBXNativeTarget "sbjson-iosTests" */;
 			buildPhases = (
+				E8444C8D68E44FD4A1A927CA /* Check Pods Manifest.lock */,
 				BCC2626E13920FC7003D9994 /* Sources */,
 				BCC2626F13920FC7003D9994 /* Frameworks */,
 				BCC2627013920FC7003D9994 /* Resources */,
 				BCC2627113920FC7003D9994 /* ShellScript */,
+				317436D465B249B0B481D224 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -556,6 +588,62 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		01DF0A317F824BDFA341A201 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+		02B72F74BB36476CBC73259B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-SBJsonTests-resources.sh\"\n";
+		};
+		317436D465B249B0B481D224 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-sbjson-iosTests-resources.sh\"\n";
+		};
+		839001FA6BB644D88A5EE706 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-sbjson-ios-resources.sh\"\n";
+		};
 		BC1232501391D5CC00131607 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -581,6 +669,62 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		C795AF7E182C4EC087505748 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+		E8444C8D68E44FD4A1A927CA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+		EB7DE809E60841978D82211F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+		F5CC9808626847FBAD3EFFC3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-SBJson-resources.sh\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -736,6 +880,7 @@
 		};
 		BC1232651391D5CC00131607 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D565C774FB88444C89402AD2 /* Pods-SBJson.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -754,6 +899,7 @@
 		};
 		BC1232661391D5CC00131607 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D565C774FB88444C89402AD2 /* Pods-SBJson.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -773,6 +919,7 @@
 		};
 		BC1232681391D5CC00131607 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C248E5C0802A4A49AD5185F6 /* Pods-SBJsonTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -782,6 +929,8 @@
 				OTHER_LDFLAGS = (
 					"-framework",
 					SenTestingKit,
+					"$(inherited)",
+					"-all_load",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
@@ -790,6 +939,7 @@
 		};
 		BC1232691391D5CC00131607 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C248E5C0802A4A49AD5185F6 /* Pods-SBJsonTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -800,6 +950,8 @@
 				OTHER_LDFLAGS = (
 					"-framework",
 					SenTestingKit,
+					"$(inherited)",
+					"-all_load",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
@@ -808,16 +960,21 @@
 		};
 		BCC2628813920FC7003D9994 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E3A1130AEA74B3AA93E72B6 /* Pods-sbjson-ios.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/sbjson_ios.dst;
 				GCC_PREFIX_HEADER = "sbjson-ios/sbjson-ios-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					include/,
 					"$(BUILT_PRODUCTS_DIR)/usr/local/lib/include/",
+					"${PODS_HEADERS_SEARCH_PATHS}",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = include/SBJson/;
 				SDKROOT = iphoneos;
@@ -827,12 +984,19 @@
 		};
 		BCC2628913920FC7003D9994 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E3A1130AEA74B3AA93E72B6 /* Pods-sbjson-ios.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/sbjson_ios.dst;
 				GCC_PREFIX_HEADER = "sbjson-ios/sbjson-ios-Prefix.pch";
-				HEADER_SEARCH_PATHS = "$(TARGET_BUILD_DIR)/include/";
+				HEADER_SEARCH_PATHS = (
+					"$(TARGET_BUILD_DIR)/include/",
+					"${PODS_HEADERS_SEARCH_PATHS}",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = include/SBJson/;
 				SDKROOT = iphoneos;
@@ -842,6 +1006,7 @@
 		};
 		BCC2628B13920FC7003D9994 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBBDDD72C0AE4EDF8FFC6240 /* Pods-sbjson-iosTests.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -854,6 +1019,7 @@
 					"-framework",
 					SenTestingKit,
 					"-all_load",
+					"$(inherited)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -863,6 +1029,7 @@
 		};
 		BCC2628C13920FC7003D9994 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBBDDD72C0AE4EDF8FFC6240 /* Pods-sbjson-iosTests.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -875,6 +1042,7 @@
 					"-framework",
 					SenTestingKit,
 					"-all_load",
+					"$(inherited)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
